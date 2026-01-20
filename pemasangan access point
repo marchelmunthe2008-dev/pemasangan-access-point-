@@ -1,0 +1,51 @@
+Access Point (TP-Link / MikroTik / Ubiquiti, dll)
+Router (contoh: MikroTik)
+Kabel LAN
+Adaptor / PoE
+Laptop / HP untuk konfigurasi
+🔌 2. Penempatan Access Point
+Pasang di tengah ruangan
+Di dinding atau plafon
+Hindari dekat besi, tembok tebal, atau perangkat listrik
+Jarak ideal antar AP ± 10–15 meter
+🔗 3. Penyambungan Kabel
+Kabel LAN dari router/switch → port LAN AP
+Sambungkan power adaptor / PoE
+Pastikan lampu indikator AP menyala
+💻 4. Hubungkan ke Access Point
+Sambungkan laptop ke AP via:
+Kabel LAN atau
+WiFi default AP
+Login ke AP via browser / Winbox
+(contoh: 192.168.0.1 atau 192.168.1.1)
+🔑 5. Login ke Access Point
+Username: admin
+Password: admin / kosong
+(sesuai merek AP)
+🌐 6. Set IP Address Access Point
+Contoh:
+IP AP: 192.168.1.2
+Gateway: 192.168.1.1 (IP MikroTik)
+DNS: 8.8.8.8
+IP AP harus satu jaringan dengan router
+📡 7. Konfigurasi Wireless
+SSID (Nama WiFi): contoh WIFI-SEKOLAH
+Mode: Access Point
+Frequency:
+2.4 GHz → Channel 1 / 6 / 11
+5 GHz → Auto
+Country: Indonesia
+Tx Power: Default
+🔐 8. Keamanan WiFi
+Security: WPA2-PSK / WPA3
+Password: minimal 8 karakter
+Nonaktifkan WPS (jika ada)
+🔁 9. Simpan & Reboot
+Klik Save / Apply
+Reboot AP
+📶 10. Uji Koneksi
+Sambungkan HP ke WiFi
+Cek:
+Dapat IP otomatis
+Internet aktif
+Sinyal stabil
